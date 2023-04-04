@@ -133,6 +133,7 @@ export interface ExperimentalConfig {
   swcFileReading?: boolean
   cpus?: number
   sharedPool?: boolean
+  preserveProxyOrigin?: boolean
   proxyTimeout?: number
   isrFlushToDisk?: boolean
   workerThreads?: boolean
